@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Sintomas</title>
+    <link rel="stylesheet" href="./css/doenças.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verificador de Sintomas</h1>
+        <form id="symptomForm">
+            <h2>Selecione os sintomas que você está sentindo:</h2>
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="febre-alta">
+                        Febre Alta
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="dor-de-cabeca">
+                        Dor de Cabeça
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="sangramentos">
+                        Sangramentos
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="dor-muscular">
+                        Dor Muscular
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="calafrios">
+                        Calafrios
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="olhos-vermelhos">
+                        Olhos Vermelhos
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="vomitos">
+                        Vômitos
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="dor-na-panturrilha-lombar">
+                        Dor na Panturrilha ou Lombar
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="contracoes-musculares">
+                        Contrações Musculares Dolorosas
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="dificuldade-respirar">
+                        Dificuldade para Respirar
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="pressao-alta">
+                        Pressão Alta
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="sudorese">
+                        Sudorese
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="sangramentos-fezes">
+                        Sangramentos nas Fezes
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="dores-abdominais">
+                        Dores Abdominais
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="fadiga">
+                        Fadiga
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="ictericia">
+                        Ictericia (Amarelão)
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="urina-escura">
+                        Urina Escura
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="fezes-claras">
+                        Fezes Claras
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="perda-de-apetite">
+                        Perda de Apetite
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="erupcoes-cutaneas">
+                        Erupções Cutâneas
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="dores-nas-articulacoes">
+                        Dores nas Articulações
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="hemorragia-intensa">
+                        Hemorragia Intensa
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="edema">
+                        Edema (Inchaço)
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="rubor">
+                        Rubor (Vermelhidão)
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="lugares-umidos-escuros">
+                        Lugares Úmidos e Escuros
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="symptoms" value="entulhos-ou-destrocos">
+                        Entulhos ou Destroços
+                    </label>
+                </li>
+            </ul>
+            <button type="button" onclick="checkSymptoms()">Verificar</button>
+        </form>
+
+        <div id="result">
+        </div>
+    </div>
+
+    <script src="/js/doença.js"></script>
+</body>
+</html>
