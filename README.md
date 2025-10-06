@@ -1,9 +1,9 @@
-# SOSRS
+# SOSRS 😥
 
 Este projeto foi criado apartir das enchentes que ocorreram no Rio grande do sul - Brasil, que ocasionou cerca de 478 municípios alagados, 183 pessoas morreram, 27 pessoas desapareceram, 442 mil pessoas tiveram que deixar suas casas, 73 cidades tiveram pelo menos 10% da área atingida, 806 pessoas ficaram feridas.
 
 
-# FUNCIONALIDADES DO PROJETO 
+# FUNCIONALIDADES DO PROJETO 📚
 
 O projeto é simples mas com as funcionalidades de mostrar algumas dos efeitos da enchente na população atingida como:
 
